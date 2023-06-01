@@ -8,25 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://viv.dayl.in/">
+        <link rel="canonical" href="https://viv.dayl.in/cli/">
       
       
+        <link rel="prev" href="..">
       
-        <link rel="next" href="cli/">
       
       <link rel="icon" href="https://raw.githubusercontent.com/daylinmorgan/viv/main/assets/logo.svg">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.15">
     
     
       
-        <title>viv</title>
+        <title>cli - viv</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.26e3688c.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.26e3688c.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ecc896b0.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
       
       
 
@@ -42,7 +42,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#viv" class="md-skip">
+        <a href="#cli" class="md-skip">
           Skip to content
         </a>
       
@@ -87,7 +87,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="viv" class="md-header__button md-logo" aria-label="viv" data-md-component="logo">
+    <a href=".." title="viv" class="md-header__button md-logo" aria-label="viv" data-md-component="logo">
       
   <img src="https://raw.githubusercontent.com/daylinmorgan/viv/main/assets/logo.svg" alt="logo">
 
@@ -105,7 +105,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              viv
+              cli
             
           </span>
         </div>
@@ -210,7 +210,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="viv" class="md-nav__button md-logo" aria-label="viv" data-md-component="logo">
+    <a href=".." title="viv" class="md-nav__button md-logo" aria-label="viv" data-md-component="logo">
       
   <img src="https://raw.githubusercontent.com/daylinmorgan/viv/main/assets/logo.svg" alt="logo">
 
@@ -238,6 +238,21 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        viv
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -250,12 +265,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          viv
+          cli
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <a href="." class="md-nav__link md-nav__link--active">
-        viv
+      <a href="./" class="md-nav__link md-nav__link--active">
+        cli
       </a>
       
         
@@ -274,16 +289,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    Setup
+  <a href="#list" class="md-nav__link">
+    list
   </a>
   
-    <nav class="md-nav" aria-label="Setup">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exe" class="md-nav__link">
+    exe
+  </a>
+  
+    <nav class="md-nav" aria-label="exe">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pypi-not-recommended" class="md-nav__link">
-    Pypi (Not Recommended)
+  <a href="#exe-python" class="md-nav__link">
+    exe python
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exe-pip" class="md-nav__link">
+    exe pip
   </a>
   
 </li>
@@ -294,43 +323,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#usage" class="md-nav__link">
-    Usage
+  <a href="#remove" class="md-nav__link">
+    remove
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-features" class="md-nav__link">
-    Additional Features
+  <a href="#manage" class="md-nav__link">
+    manage
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#alternatives" class="md-nav__link">
-    Alternatives
-  </a>
-  
-    <nav class="md-nav" aria-label="Alternatives">
+    <nav class="md-nav" aria-label="manage">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pip-run" class="md-nav__link">
-    pip-run
+  <a href="#manage-update" class="md-nav__link">
+    manage update
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pipx" class="md-nav__link">
-    pipx
+  <a href="#manage-purge" class="md-nav__link">
+    manage purge
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manage-show" class="md-nav__link">
+    manage show
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manage-install" class="md-nav__link">
+    manage install
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#freeze" class="md-nav__link">
+    freeze
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shim" class="md-nav__link">
+    shim
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run" class="md-nav__link">
+    run
+  </a>
   
 </li>
       
@@ -338,21 +395,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="cli/" class="md-nav__link">
-        cli
-      </a>
     </li>
   
 
@@ -384,16 +426,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    Setup
+  <a href="#list" class="md-nav__link">
+    list
   </a>
   
-    <nav class="md-nav" aria-label="Setup">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exe" class="md-nav__link">
+    exe
+  </a>
+  
+    <nav class="md-nav" aria-label="exe">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pypi-not-recommended" class="md-nav__link">
-    Pypi (Not Recommended)
+  <a href="#exe-python" class="md-nav__link">
+    exe python
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exe-pip" class="md-nav__link">
+    exe pip
   </a>
   
 </li>
@@ -404,43 +460,71 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#usage" class="md-nav__link">
-    Usage
+  <a href="#remove" class="md-nav__link">
+    remove
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-features" class="md-nav__link">
-    Additional Features
+  <a href="#manage" class="md-nav__link">
+    manage
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#alternatives" class="md-nav__link">
-    Alternatives
-  </a>
-  
-    <nav class="md-nav" aria-label="Alternatives">
+    <nav class="md-nav" aria-label="manage">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#pip-run" class="md-nav__link">
-    pip-run
+  <a href="#manage-update" class="md-nav__link">
+    manage update
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#pipx" class="md-nav__link">
-    pipx
+  <a href="#manage-purge" class="md-nav__link">
+    manage purge
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manage-show" class="md-nav__link">
+    manage show
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#manage-install" class="md-nav__link">
+    manage install
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#freeze" class="md-nav__link">
+    freeze
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shim" class="md-nav__link">
+    shim
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#run" class="md-nav__link">
+    run
+  </a>
   
 </li>
       
@@ -462,95 +546,34 @@
   
 
 
-<h1 id="viv">viv</h1>
-<div align="center">
-  <a href="https://github.com/daylinmorgan/viv">
-    <img src="https://raw.githubusercontent.com/daylinmorgan/viv/main/assets/logo.svg" alt="Logo" width=500 >
-  </a>
-  <p align="center">
-  viv isn't venv
-  </p>
-  <p align="center">
-    <a href="viv.dayl.in">Documentation</a>
-  </p>
-</div>
-
-<p>Try before you buy!</p>
-<pre><code class="language-sh">python3 &lt;(curl -fsSL viv.dayl.in/viv.py) run pycowsay -- &quot;viv isn't venv\!&quot;
-</code></pre>
-<hr />
-<p><code>Viv</code> is a standalone dependency-free <code>venv</code> creator.</p>
-<p>These <code>venvs</code> can be identified by name or by their specification.
-In any case they will be re-used across scripts (and generated on-demand, if needed).</p>
-<p><strong>Importantly</strong>, <code>viv</code> will also remove your user site directory.
-(view with: <code>python -m 'import site;print(site.USER_SITE)'</code>).</p>
-<p><code>Viv</code>'s uncompromising insistence on portability means that it will always (1) only use the standard library (2) never exceed a single script.</p>
-<p>For that reason any usage of the <code>CLI</code> can be accomplished using a remote copy as seen in the below install command.</p>
-<h2 id="setup">Setup</h2>
-<p>Run the below command to install <code>viv</code>.</p>
-<pre><code class="language-sh">python3 &lt;(curl -fsSL viv.dayl.in/viv.py) manage install
-</code></pre>
-<p>To access <code>viv</code> from within scripts you should add it's location to your <code>PYTHONPATH</code>.
-By default <code>viv</code> will be installed to <code>$XDG_DATA_HOME/viv</code> or <code>~/.local/share/viv</code> you can customize this with <code>--src</code>.</p>
-<pre><code class="language-sh">export PYTHONPATH=&quot;$PYTHONPATH:$HOME/.local/share/viv&quot;
-</code></pre>
-<p>Advanced users may recognize that principally,
-the module just needs to be recognized at run time
-and the single script <a href="https://github.com/daylinmorgan/viv/blob/main/src/viv/viv.py"><code>viv.py</code></a> can be invoked directly for the CLI.
-How you accomplish these options is ultimately up to you but the above instructions can get you started.</p>
-<h3 id="pypi-not-recommended">Pypi (Not Recommended)</h3>
-<pre><code class="language-sh">pip install viv
-</code></pre>
-<p>Why is this <em>not recommended</em>? Mainly, because <code>viv</code> is all about hacking your <code>sys.path</code>.
-Placing it in it's own virtual environment or installing in a user site directory may complicate this endeavor.</p>
-<h2 id="usage">Usage</h2>
-<p>In any python script with external dependencies you can add this line,
-to automate <code>vivenv</code> creation and installation of dependencies.</p>
-<pre><code class="language-python">__import__(&quot;viv&quot;).use(&quot;click&quot;)
-</code></pre>
-<p>To remove all <code>vivenvs</code> you can use the below command:</p>
-<pre><code class="language-sh">viv remove $(viv list -q)
-</code></pre>
-<p>To remove <code>viv</code> all together you can use the included <code>purge</code> command:</p>
-<pre><code class="language-sh">python3 &lt;(curl -fsSL viv.dayl.in/viv.py) manage purge
-</code></pre>
-<h2 id="additional-features">Additional Features</h2>
-<p>An experimental feature of <code>viv</code> is generating shim's that leverage the principles of <code>viv</code>.
-These shims would operate similar to <code>pipx</code> in which you can specify a command line app to "install".</p>
-<p><em>Note</em> that <code>--standalone</code> will auto-generate a code-golfed minified version of <code>viv</code> to accomplish the same basic task as using a local copy of <code>viv</code>.
-After generating this a standalone <code>shim</code> you can freely use this script across unix machines which have <code>python&gt;3.8</code>.
-See <a href="https://github.com/daylinmorgan/viv/blob/dev/examples/black">examples/black</a> for output of below command.</p>
-<pre><code class="language-sh">python3 &lt;(curl -fsSL viv.dayl.in/viv.py) shim black -o ./black --standalone --freeze
-</code></pre>
-<h2 id="alternatives">Alternatives</h2>
-<h3 id="pip-run"><a href="https://github.com/jaraco/pip-run">pip-run</a></h3>
-<pre><code class="language-sh">pip-run (10.0.5)
-├── autocommand (2.2.2)
-├── jaraco-context (4.3.0)
-├── jaraco-functools (3.6.0)
-│   └── more-itertools (9.1.0)
-├── jaraco-text (3.11.1)
-│   ├── autocommand (2.2.2)
-│   ├── inflect (6.0.2)
-│   │   └── pydantic&gt;=1.9.1 (1.10.5)
-│   │       └── typing-extensions&gt;=4.2.0 (4.5.0)
-│   ├── jaraco-context&gt;=4.1 (4.3.0)
-│   ├── jaraco-functools (3.6.0)
-│   │   └── more-itertools (9.1.0)
-│   └── more-itertools (9.1.0)
-├── more-itertools&gt;=8.3 (9.1.0)
-├── packaging (23.0)
-├── path&gt;=15.1 (16.6.0)
-├── pip&gt;=19.3 (23.0.1)
-└── platformdirs (3.1.0)
-</code></pre>
-<h3 id="pipx"><a href="https://github.com/pypa/pipx/">pipx</a></h3>
-<pre><code class="language-sh">pipx (1.1.0)
-├── argcomplete&gt;=1.9.4 (2.1.1)
-├── packaging&gt;=20.0 (23.0)
-└── userpath&gt;=1.6.0 (1.8.0)
-    └── click (8.1.3)
-</code></pre>
+<h1 id="cli">cli</h1>
+<p><img alt="help" src="/svgs/viv-help.svg" /></p>
+<h2 id="list">list</h2>
+<p><img alt="cmd" src="/svgs/viv-list-help.svg" /></p>
+<h2 id="exe">exe</h2>
+<p><img alt="cmd" src="/svgs/viv-exe-help.svg" /></p>
+<h3 id="exe-python">exe python</h3>
+<p><img alt="cmd" src="/svgs/viv-exe-python-help.svg" /></p>
+<h3 id="exe-pip">exe pip</h3>
+<p><img alt="cmd" src="/svgs/viv-exe-pip-help.svg" /></p>
+<h2 id="remove">remove</h2>
+<p><img alt="cmd" src="/svgs/viv-remove-help.svg" /></p>
+<h2 id="manage">manage</h2>
+<p><img alt="cmd" src="/svgs/viv-manage-help.svg" /></p>
+<h3 id="manage-update">manage update</h3>
+<p><img alt="cmd" src="/svgs/viv-manage-update-help.svg" /></p>
+<h3 id="manage-purge">manage purge</h3>
+<p><img alt="cmd" src="/svgs/viv-manage-purge-help.svg" /></p>
+<h3 id="manage-show">manage show</h3>
+<p><img alt="cmd" src="/svgs/viv-manage-show-help.svg" /></p>
+<h3 id="manage-install">manage install</h3>
+<p><img alt="cmd" src="/svgs/viv-manage-install-help.svg" /></p>
+<h2 id="freeze">freeze</h2>
+<p><img alt="cmd" src="/svgs/viv-freeze-help.svg" /></p>
+<h2 id="shim">shim</h2>
+<p><img alt="cmd" src="/svgs/viv-shim-help.svg" /></p>
+<h2 id="run">run</h2>
+<p><img alt="cmd" src="/svgs/viv-run-help.svg" /></p>
 
 
 
@@ -588,10 +611,10 @@ See <a href="https://github.com/daylinmorgan/viv/blob/dev/examples/black">exampl
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.indexes"], "search": "assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.indexes"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.b4d07000.min.js"></script>
+      <script src="../assets/javascripts/bundle.b4d07000.min.js"></script>
       
     
   </body>
